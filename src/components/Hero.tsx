@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input"
 
 export const Hero = () => {
   return (
-    <main className="bg-[url('src/assets/HeroImg.png')] py-28 flex flex-col items-center gap-12">
+    <main className="bg-[url('public/HeroImg.png')] py-28 flex flex-col items-center gap-12">
       <div className="flex flex-col items-center gap-2">
         <h1 className="text-5xl font-black text-white">Are You a Supplier?</h1>
         <h2 className="text-5xl font-medium text-white">Explore Matching Opportunities.</h2>
