@@ -1,4 +1,3 @@
-import { Separator } from "@/components/ui/separator"
 import { HabotWhiteLogo } from "./Icons"
 import LinkedinIcon from "../assets/Linkedin.svg"
 import TwitterIcon from "../assets/Twitter.svg"
@@ -7,12 +6,12 @@ import InstagramIcon from "../assets/Instagram.svg"
 
 function Footer() {
   return (
-    <main className="flex bg-[#123557] mt-52">
+    <main className="flex bg-[#123557] mt-20 sm:mt-52">
       
       <div className="container p-8">
-      <Separator color="#000000" />
-      <div className="flex p-8 justify-between">
-      <span><HabotWhiteLogo /></span>
+      <div className="flex flex-col sm:flex-row p-4 sm:p-8 justify-between border-y border-[#FFFFFF33] gap-8">
+      <span className="text-white font-light space-y-2 sm:space-y-8"><HabotWhiteLogo /><p>© R Singhania</p>
+      </span>
 
       <div> 
         <ul className="text-white font-light">
@@ -46,7 +45,6 @@ function Footer() {
         <img className="w-5" src={InstagramIcon} />
       </div>
       </div>
-      <Separator color="#000000" />
       </div>
     </main>
   )

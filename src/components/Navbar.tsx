@@ -15,8 +15,8 @@ import { HabotLogo } from "./Icons";
 
 export const Navbar = () => {
   return (
-    <header className="sticky py-4 top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
-      <NavigationMenu className="mx-12">
+    <header className="sticky py-2 sm:py-4 top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
+      <NavigationMenu className="sm:mx-12">
         <NavigationMenuList className="container h-14 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
             <a

@@ -7,7 +7,7 @@ import HIW6 from "../assets/Group.svg"
 
 function HowItWorks() {
   return (
-    <main className="container flex flex-col gap-12 py-8">
+    <main className="container flex flex-col gap-12 sm:py-8">
       <div className="flex flex-col items-center gap-4">
         <h2 className="text-3xl font-bold">How it works?</h2>
         <p className="text-center">
@@ -18,7 +18,7 @@ function HowItWorks() {
         </p>
       </div>
       
-      <div className="grid grid-cols-3 grid-rows-2 px-12">
+      <div className="sm:grid grid-cols-3 grid-rows-2 px-12">
         <div className="div1 col-start-1 col-end-2 row-start-1 row-end-2 bg-[#E8FBFF] py-12 px-16 flex flex-col items-center gap-6">
           <img src={HIW1} width={70} />
           <p className="text-center text-lg font-medium">Select Your Role and Sign Up</p>
